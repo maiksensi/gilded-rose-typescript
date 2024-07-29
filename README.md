@@ -2,13 +2,8 @@
 
 > 🚧 &nbsp; work in progress &nbsp;🚧
 
-## Attempts
 
-### 1. Violated Rules
-
-Code: [Attempt 1](https://github.com/sitek94/gilded-rose-typescript/tree/main/src/attempt-1)
-
-The description says:
+## The description says:
 
 > (...) do not alter the Item class
 
@@ -17,21 +12,6 @@ iterating over its items, it was invoking that method. This allowed each special
 version of `updadeQuality` with some special conditions.
 
 Conjured Item implementation works, but I'm not really happy with this solution.
-
-### 2. Heavily inspired by Sandi Metz
-
-Code: [Attempt 2](https://github.com/sitek94/gilded-rose-typescript/tree/main/src/attempt-2)
-
-In this approach I tried to apply what I learned by watching the [talk by Sandi Metz](https://youtu.be/8bZh5LMaSmE). 
-Copying her solution 1-to-1 is not possible, for number of reasons:
-1. She uses Ruby, not TypeScript.
-2. Her version of the Kata is a bit simplified, which in my opinion is understandable, because when you give a talk you
-   want to focus on the key concepts, and don't delve into some corner cases. Nevertheless, here are some differences:
-   - Her `GildedRose` class doesn't have `items` that it iterates over, there is just one item being handled.
-   - Some edge cases are not handled, e.g. in her implementation it'd be possible to increment the quality "Aged Brie"
-     to 51.
-   - In her version a normal/common item has property name of "normal", whereas in original Kata, any item which name is
-     not "Aged Brie", "Backstage passes", "Sulfuras" or "Conjured" is considered normal.
 
 ## Resources
 
