@@ -1,4 +1,4 @@
-import { GildedRose, Item } from "gilded-rose";
+import { GildedRose, Item } from "./gilded-rose";
 
 describe("Gilded Rose", () => {
   describe("Normal item", () => {
