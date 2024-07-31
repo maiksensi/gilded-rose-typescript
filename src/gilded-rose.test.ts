@@ -1,9 +1,15 @@
+import { GildedRose, Item } from "gilded-rose";
+
 describe("Gilded Rose", () => {
   describe("Normal item", () => {
     it("should never have a negative quality", () => {
       // ARRANGE
+      const normalItem = new Item("NormalItem", 0, 0);
+      const goldenRose = new GildedRose([normalItem]);
       // ACT
+      goldenRose.updateQuality();
       // ASSERT
+      expect(normalItem.quality).toBeGreaterThanOrEqual(0);
     });
 
     it("should degrade its quality by 1 before the sell-by date", () => {
