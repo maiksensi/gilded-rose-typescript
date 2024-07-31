@@ -1,20 +1,38 @@
 describe("Gilded Rose", () => {
   describe("Normal item", () => {
-    it("should the quality of an item is never negative", () => {
+    it("should never have a negative quality", () => {
       // ARRANGE
       // ACT
       // ASSERT
     });
 
-    it("should the quality of an item is never more than 50", () => {
+    it("should never have a quality more than 50", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
+    it("should degrade its quality by 1 before the sell-by date", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
+    it("should degrade its quality by 2 after the sell-by date", () => {
       // ARRANGE
       // ACT
       // ASSERT
     });
   });
 
-  describe("Legendary Items", () => {
-    it("should have quality 80", () => {
+  describe("Sulfuras Item", () => {
+    it("should never have a negative quality", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
+    it("should always have quality 80", () => {
       // ARRANGE
       // ACT
       // ASSERT
@@ -25,10 +43,46 @@ describe("Gilded Rose", () => {
       // ACT
       // ASSERT
     });
+
+    it("should degrade its quality by 1 before the sell-by date", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
+    it("should degrade its quality by 2 after the sell-by date", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
   });
 
   describe("Aged Brie Item", () => {
-    it("should do something", () => {
+    it("should never have a negative quality", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
+    it("should increase in quality by 1 each day", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
+    it("should never have a quality more than 50", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
+    it("should degrade its quality by 1 before the sell-by date", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
+    it("should degrade its quality by 2 after the sell-by date", () => {
       // ARRANGE
       // ACT
       // ASSERT
@@ -36,7 +90,31 @@ describe("Gilded Rose", () => {
   });
 
   describe("Backstage passes Item", () => {
+    it("should never have a negative quality", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
     it("should do something", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
+    it("should never have a quality more than 50", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
+    it("should degrade its quality by 1 before the sell-by date", () => {
+      // ARRANGE
+      // ACT
+      // ASSERT
+    });
+
+    it("should degrade its quality by 2 after the sell-by date", () => {
       // ARRANGE
       // ACT
       // ASSERT
